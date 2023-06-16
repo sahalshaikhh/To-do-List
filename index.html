@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/bg_laptop.webp"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>To-do List</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="my-title text-center text-2xl">My To-Do list</h1>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="center">
+          <!-- Intro Heading -->
+          <p id="introText" class="text-lg text-center font-bold my-5">
+            <span class="font-bold text-2xl text-yellow-500">Welcome, </span>
+            Sir/Madam
+          </p>
+          <div class="input-data relative">
+            <!-- Input Data Form  -->
+            <input
+              class="input-field"
+              type="text"
+              name="list-item"
+              id="list-item"
+              placeholder="Enter your todo's here"
+            />
+            <div class="add-icon text-2xl font-bold right-8 cursor-pointer">
+              <img
+                src="./assets/add.png"
+                alt="add button"
+                class="Add-btn absolute"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
